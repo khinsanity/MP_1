@@ -1,5 +1,7 @@
 # MP_1
 
-# MP1 | Kodego
+MP1 | Kodego
 
-![AwesomeToDo Logo](todo-logo.png)
+## Table of Contents
+
+- [Getting Started](#getting-started)
