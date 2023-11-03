@@ -183,6 +183,10 @@ header .logo {
     height: auto;
 }
 
+.carousel-item img {
+    width: 50%; /* Adjust the width as desired */
+    height: auto; /* Maintain aspect ratio */
+  }
 
 
 
