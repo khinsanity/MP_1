@@ -9,7 +9,7 @@
 /* Styling for the logo inside the header */
 header .logo {
     position: relative;
-    font-size: 25px;
+    font-size: 30px;
     color: #212529;
     text-transform: uppercase;
     font-weight: 700;
@@ -72,8 +72,6 @@ header .logo {
     -webkit-filter: brightness(35%);
     height: 534px;
     width: 100%;
-    border-radius: 10px;
-    padding: 1px;
   }
 
 /* Styling for an element with the ID 'img1' */
@@ -101,10 +99,10 @@ header .logo {
 
 .txt {
     font-family: Arial, Helvetica, sans-serif;
-    width: 75%;
+    width: 70%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 20%;
     text-decoration: none;
     font-size: 20px;
     color: #333;
@@ -202,7 +200,7 @@ header .logo {
 /* Reduce the height of the carousel */
 .carousel {
     max-height: 700px; /* Adjust the height as needed */
-    
+
 }
 
 /* Reduce the height of the carousel items and their captions */
@@ -246,8 +244,15 @@ header .logo {
     width: 100%;
 }
 
+/* Footer stylee*/
 
-
+.btn {
+    transition: transform 528ms ease;
+  }
+  
+  .btn:hover {
+    transform: translate(0px, -6px);
+  }
 
 
 
