@@ -244,7 +244,7 @@ header .logo {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: inherit;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(1, 8, 96, 0.5), rgb(1, 8, 96));
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(51, 51, 51, 0.5), rgb(51, 51, 51));
 }
 
 
