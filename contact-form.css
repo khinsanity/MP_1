@@ -6,7 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+body {
+    background-color: #EEF0F4;
+}
 
 /* Styling for the logo inside the header */
 header .logo {

@@ -38,20 +38,18 @@ header .logo {
 }
 
 #btn1 {
-    background-color: aqua;
-    right: 0;
-    
+    background-color: #212529;
+    color: white;
+    border-radius: 0;
 
 }
-
-
 
 .txt-1 {
     width:100%;
     margin-top: 10%;
     font-size: 50px;
     font-weight: 700;
-    color: #081158;
+    color: #212529;
 }
 
 body {
@@ -59,7 +57,7 @@ body {
 }
 
 .fs-1 {
-    color: #081158;
+    color: #212529;
     width: 75%;
     margin-top: 10%;
 }
@@ -85,10 +83,25 @@ body {
 
 .btn {
     transition: transform 528ms ease;
+    -webkit-transition: transform 528ms ease;
+    -moz-transition: transform 528ms ease;
+    -ms-transition: transform 528ms ease;
+    -o-transition: transform 528ms ease;
+
 }
-  
+
 .btn:hover {
     transform: translate(0px, -6px);
+    
+}
+
+.btn-section {
+    background-color: #212529;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
 }
 
 
@@ -96,5 +109,30 @@ body {
     font-size: 90px;
     width: 100%;
     font-weight: bolder;
-    color: #081158;
+    color: #B44E4E;
+    text-transform: uppercase;
+    margin: 20vh 0vh;
 }
+
+.open a {
+    background-color: #212529;
+    color: white;
+    border-radius: 0;
+    width: 100px;
+    border: none;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.open a:hover {
+    background-color: #FFC113!important;
+}
+
+.card-text {
+    text-align: justify;
+    padding: 2vh;
+}
+
