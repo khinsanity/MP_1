@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for the logo inside the header */
+header .logo {
+    position: relative;
+    font-size: 30px;
+    color: #212529;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block; /* or display: block; depending on your needs */
+}
+
+/* Styling for an element with the ID 'img' */
+#img {
+    min-width: 100px;
+    min-height: 10px;
+    box-shadow: -3px 23px 33px -10px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: -3px 23px 33px -10px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -3px 23px 33px -10px rgba(0, 0, 0, 0.44);
+    display: block; /* or display: inline-block; depending on your needs */
+}
+
+/* Styling for a navigation item on hover */
+.nav-item:hover {
+    border-radius: 10px; /* Added 'px' unit for border-radius */
+    background-color: grey;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#btn1 {
+    background-color: aqua;
+    right: 0;
+    
+
+}
+
+
+
+.txt-1 {
+    width:100%;
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: 700;
+    color: #081158;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.fs-1 {
+    color: #081158;
+    width: 75%;
+    margin-top: 10%;
+}
+
+.dd-p {
+    font-size: large;
+}
+
+.card {
+    border-radius: 2%;
+    box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    left: 10%;
+    text-align: center;
+    width: 83%;
+    margin-top: 20%;
+}
+
+.btn {
+    transition: transform 528ms ease;
+}
+  
+.btn:hover {
+    transform: translate(0px, -6px);
+}
+
+
+.bigtxt {
+    font-size: 90px;
+    width: 100%;
+    font-weight: bolder;
+    color: #081158;
+}

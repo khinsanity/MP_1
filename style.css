@@ -121,8 +121,8 @@ header .logo {
     -webkit-border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 34px 39px -14px rgba(0,0,0,0.64);
--webkit-box-shadow: 1px 34px 39px -14px rgba(0,0,0,0.64);
--moz-box-shadow: 1px 34px 39px -14px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 1px 34px 39px -14px rgba(0,0,0,0.64);
+    -moz-box-shadow: 1px 34px 39px -14px rgba(0,0,0,0.64);
 
 }
 
@@ -248,13 +248,16 @@ header .logo {
 
 .btn {
     transition: transform 528ms ease;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     transform: translate(0px, -6px);
-  }
+}
 
 
+.text-decoration-none:hover {
+    text-decoration: underline;
+}
 
 
 

@@ -6,10 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: #74d2e7;
-    
-}
+
 
 /* Styling for the logo inside the header */
 header .logo {
@@ -46,7 +43,7 @@ header .logo {
    
    .button:hover {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(78,196,194,100) 100%);
+    background-color: orange;
    }
    
    .button:active {
@@ -54,21 +51,17 @@ header .logo {
    }
 
 .col.image-a {
-  width: 34%;
+  width: 25%;
   height: 100px;
   position: absolute;
   margin: 0%;
-  margin-left: 60%;
+  margin-left: 70%;
   top: 20%;
   
 }
 
-.col.image-a .image-w {
-    /********EMPTY*********/
-}
-
 .col.image-a .image-w img {
-  width: 100%;
+  width: 90%;
   height: 100%;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -76,8 +69,8 @@ header .logo {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
--webkit-box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
--moz-box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
 }
 
 .label {
@@ -90,3 +83,17 @@ header .logo {
 .txt-label {
     margin-top: 7%;
 }
+
+.btn {
+    transition: transform 528ms ease;
+}
+
+.btn:hover {
+    transform: translate(0px, -6px);
+}
+
+
+.text-decoration-none:hover {
+    text-decoration: underline;
+}
+
