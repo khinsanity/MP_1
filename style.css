@@ -21,6 +21,10 @@ header .logo {
     /* or display: block; depending on your needs */
 }
 
+body {
+    background-color: #EEF0F4;
+}
+
 
 #img {
     min-width: 100px;
@@ -314,7 +318,7 @@ header .logo {
 .hero-content-holder {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
-    height: 60vh;
+    height: 75vh;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -441,6 +445,25 @@ span.hero-title-two {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+}
+
+@font-face {
+    font-family: "airstrikebold-webfont";
+    src: url("/assets/font/airstrikebold-webfont.woff");
+}
+
+.icon {
+    font-family: 'airstrikebold-webfont';
+}
+
+.navbar-brand, .logo, .icon {
+    line-height: 2rem;
+    
+    
+}
+
+.container-fluid {
+    line-height: 2.5rem;
 }
 
 
@@ -835,6 +858,19 @@ span.hero-title-two {
         font-size: 12px;
         width: 100%;
     }
+    
+    body {
+        background-color: #212529;
+        color: white;
+    }
+
+    header .logo {
+        color: white;
+    }
+
+    button, .navbar-toggler {
+        background-color: #fff;
+    }
 
 
 }
@@ -961,6 +997,10 @@ span.hero-title-two {
         font-size: 12px;
         width: 100%;
     }
+
+    
+
+    
 
 
 }
