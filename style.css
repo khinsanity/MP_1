@@ -449,7 +449,7 @@ span.hero-title-two {
 
 @font-face {
     font-family: "airstrikebold-webfont";
-    src: url("/assets/font/airstrikebold-webfont.woff");
+    src: url("assets/font/airstrikebold-webfont.woff");
 }
 
 .icon {
@@ -458,8 +458,7 @@ span.hero-title-two {
 
 .navbar-brand, .logo, .icon {
     line-height: 2rem;
-    
-    
+
 }
 
 .container-fluid {
