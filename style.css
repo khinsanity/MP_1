@@ -9,10 +9,6 @@
 /* Styling for the logo inside the header */
 
 
-body {
-    background-color: #EEF0F4;
-}
-
 header .logo {
     position: relative;
     font-size: 30px;
@@ -289,7 +285,7 @@ header .logo {
     width: 100%;
 }
 
-/* Footer stylee */
+/* Footer stylee*/
 
 .btn {
     transition: transform 528ms ease;
@@ -446,7 +442,6 @@ span.hero-title-two {
     background-size: cover;
     background-attachment: scroll;
 }
-
 
 
 /*********MEDIA YARN************/
@@ -901,11 +896,6 @@ span.hero-title-two {
         width: 100%;
     }
 
-    
-    .contact-form-img {
-        height: 0;
-    }
-
 
 }
 
@@ -970,10 +960,6 @@ span.hero-title-two {
     .txt {
         font-size: 12px;
         width: 100%;
-    }
-
-    .contact-form-img {
-        height: 109%;
     }
 
 

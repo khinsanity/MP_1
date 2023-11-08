@@ -102,12 +102,11 @@ header .logo {
 }
 
 .contact-form-img {
-    background-image: url(assets/img/cont_1.jpg); 
-    background-repeat: no-repeat; 
+    background-image: url(assets/img/cont_1.jpg); background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
     height: 60vh; 
-    width: 100%;
+    width: 100%;    
 }
 
 @media (max-width: 320px) {
@@ -166,10 +165,14 @@ header .logo {
         font-size: 12px;
         width: 100%;
     }
+
     .contact-form-img {
         background-image: none;
-    } 
+    }
+
+
 }
+
 
 @media (max-width: 768px) {
     #img3 {
@@ -233,8 +236,8 @@ header .logo {
     }
 
     .contact-form-img {
-        background-image: none;
-    } 
+        display: none;
+    }
 
 
 }
