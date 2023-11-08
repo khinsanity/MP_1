@@ -15,7 +15,8 @@ header .logo {
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 1px;
-    display: inline-block; /* or display: block; depending on your needs */
+    display: inline-block;
+    /* or display: block; depending on your needs */
 }
 
 /* Styling for an element with the ID 'img' */
@@ -25,13 +26,15 @@ header .logo {
     box-shadow: -3px 23px 33px -10px rgba(0, 0, 0, 0.44);
     -webkit-box-shadow: -3px 23px 33px -10px rgba(0, 0, 0, 0.44);
     -moz-box-shadow: -3px 23px 33px -10px rgba(0, 0, 0, 0.44);
-    display: block; /* or display: inline-block; depending on your needs */
+    display: block;
+    /* or display: inline-block; depending on your needs */
 }
 
 /* Styling for a navigation item on hover */
 .nav-item:hover {
-    border-radius: 10px; /* Added 'px' unit for border-radius */
-    background-color: grey;
+    border-radius: 10px;
+    /* Added 'px' unit for border-radius */
+    /* background-color: grey; */
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -40,9 +43,9 @@ header .logo {
 
 .btn {
     transition: transform 528ms ease;
-    
+
 }
-  
+
 .btn:hover {
     transform: translate(0px, -6px);
 }
@@ -50,27 +53,32 @@ header .logo {
 
 .text-decoration-none:hover {
     text-decoration: underline;
-    
+
 }
 
 
 .card {
     border-radius: 2%;
-    box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 10px 8px 38px -5px rgba(0,0,0,0.5);
+    box-shadow: 10px 8px 38px -5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 8px 38px -5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 8px 38px -5px rgba(0, 0, 0, 0.5);
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
     -ms-border-radius: 2%;
     -o-border-radius: 2%;
-    
+
 }
 
 .card-title {
     font-family: 'Oswald', sans-serif;
     width: auto;
     font-size: 20px;
+    padding: 0vh 2vh;
+    padding-top: 2vh;
+    min-height: 8vh;
 }
+
+
 
 .bigt {
     font-size: 70px;
@@ -89,7 +97,8 @@ header .logo {
 .card-text {
     text-align: justify;
     padding: 2vh;
-} 
+    min-height: 20vh;
+}
 
 .open a {
     background-color: #212529;
@@ -105,7 +114,7 @@ header .logo {
 }
 
 .open a:hover {
-    background-color: #FFC113!important;
+    background-color: #FFC113 !important;
 }
 
 .btn {
@@ -116,6 +125,14 @@ header .logo {
     transform: translate(0px, -6px);
 }
 
+@media (max-width: 1200px) {
+    .card-text {
+        min-height: 24vh;
+    }
+}
 
-
-
+@media (max-width: 992px) {
+    .card-text {
+        min-height: 15vh;
+    }
+}

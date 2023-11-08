@@ -1,0 +1,228 @@
+/* Reset default margin, padding, and box model for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for the logo inside the header */
+header .logo {
+    position: relative;
+    font-size: 30px;
+    color: #212529;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block; /* or display: block; depending on your needs */
+}
+
+
+#img {
+    min-width: 100px;
+    min-height: 10px;
+    box-shadow: -3px 23px 33px -10px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: -3px 23px 33px -10px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -3px 23px 33px -10px rgba(0, 0, 0, 0.44);
+    display: block;
+}
+
+
+.nav-item:hover {
+    border-radius: 10px;
+    background-color: grey;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.btn {
+    transition: transform 528ms ease;
+}
+
+.btn:hover {
+    transform: translate(0px, -6px);
+}
+
+
+.text-decoration-none:hover {
+    text-decoration: underline;
+}
+
+img {
+    text-align: center;
+    display: inline;
+    overflow: clip;
+    transform: matrix(1, 0, 0, 1, 0, -0.465442);
+    transition: all 0s ease 0;
+    -webkit-transition: all 0s ease 0;
+    -moz-transition: all 0s ease 0;
+    -ms-transition: all 0s ease 0;
+    -o-transition: all 0s ease 0;
+    padding: 0 160px 0 0;
+    position: relative;
+    left: 55%;
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.nav-bar a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.header {
+    height: 800px;
+    background-image: url('header-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.work-plan {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.work-plan .title {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.work-plan .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-plan .content .box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.testimonial {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial .title {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.testimonial .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial .content .box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.pricing {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pricing .title {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.pricing .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing .content .box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact .title {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.contact .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .content .box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
