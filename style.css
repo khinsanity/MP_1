@@ -333,6 +333,7 @@ h1.hero-title,
 span.hero-title-two {
     font-size: 10vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 h1.hero-title {
