@@ -11,14 +11,14 @@
 
 header .logo {
     position: relative;
-    font-size: 30px;
+    font-size: 50px;
     color: #212529;
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 1px;
     display: inline-block;
-    /* or display: block; depending on your needs */
+    
 }
 
 body {
@@ -431,7 +431,7 @@ span.hero-title-two {
 
 .card-holderss h3 {
     color: white;
-    min-height: 8vh;
+    min-height: 3vh;
 }
 
 .card-holderss p {
@@ -446,6 +446,11 @@ span.hero-title-two {
     background-size: cover;
     background-attachment: scroll;
 }
+
+#heart {
+    
+}
+
 
 @font-face {
     font-family: "airstrikebold-webfont";
@@ -670,6 +675,35 @@ span.hero-title-two {
         background-attachment: scroll;
     }
 
+    header .logo {
+        font-size: 30px;
+    }
+
+    .navbar-toggler-icon {
+        background-size: 80%;
+        color: white;
+        top: 23px;
+        position: absolute;
+        right: 31px;
+    }
+
+    .navbar-toggler {
+        width: 35px;
+        height: 28px;
+    }
+
+    .card-holderss h3 {
+        text-align: center;
+    }
+
+    #iconz {
+        font-size: 3rem;
+        text-align: center;
+        color: #B44E4E;
+        padding: 2vh;
+        justify-content: center;
+        display: grid;
+    }
 
 }
 
@@ -872,6 +906,14 @@ span.hero-title-two {
     }
 
 
+    .navbar-toggler-icon {
+        position: relative;
+        top: -6px;
+        left: -10px;
+        color: #fff;
+    }
+
+
 }
 
 @media (max-width: 375px) {
@@ -997,9 +1039,13 @@ span.hero-title-two {
         width: 100%;
     }
 
-    
-
-    
+}
 
 
+
+@media (max-width: 290px) {
+    .navbar-toggler {
+        width: 35px;
+        height: 28px;
+    }
 }
