@@ -1,4 +1,4 @@
-/* Reset default margin, padding, and box model for all elements */
+/* Global Styling */
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +6,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Styling for the logo inside the header */
 
-
+/* Header Styling */
 header .logo {
     position: relative;
     font-size: 50px;
@@ -21,11 +20,12 @@ header .logo {
     
 }
 
+/* Body Styling */
 body {
     background-color: #EEF0F4;
 }
 
-
+/* Image Styling */
 #img {
     min-width: 100px;
     min-height: 10px;
@@ -35,7 +35,7 @@ body {
     display: block;
 }
 
-
+/* Navigation Styling */
 .nav-item:hover {
     border-radius: 10px;
     /* background-color: grey; */
@@ -45,6 +45,8 @@ body {
     -o-border-radius: 10px;
 }
 
+
+/* Dropdown Styling */
 .nav-link,
 .dropdown-item {
     font-weight: 600;
@@ -71,6 +73,7 @@ body {
 }
 
 
+/* text Styling */
 .text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
@@ -98,7 +101,7 @@ body {
     text-decoration: none;
 }
 
-/* Styling for an element with the ID 'img_1' */
+/* section Styling */
 #img_1 {
     filter: brightness(35%);
     -webkit-filter: brightness(35%);
@@ -159,7 +162,7 @@ body {
 }
 
 
-
+/* Timeline Styling */
 .timeline {
     position: relative;
     max-width: 800px;
@@ -184,6 +187,7 @@ body {
     color: #fff;
 }
 
+/* Gallery Styling */
 .gallery {
     padding: 20px;
     text-align: center;
@@ -220,6 +224,7 @@ body {
     height: auto;
 }
 
+/* Carousel Styling */
 .carousel-item {
     width: 100%;
     height: 100%;
@@ -227,29 +232,28 @@ body {
 
 .carousel-item img {
     width: 100%;
-    /* This will make the images span the entire width of the carousel */
     height: 100%;
-    /* This will make the images span the entire height of the carousel */
+    
 }
 
 
-/* Reduce the height of the carousel */
+
 .carousel {
     max-height: 700px;
-    /* Adjust the height as needed */
+    
 
 }
 
-/* Reduce the height of the carousel items and their captions */
+
 .carousel-item {
     max-height: 500px;
     /* Adjust the height as needed */
 }
 
-/* Ensure the images fit within the reduced height */
+
 .carousel-item img {
     max-height: 100%;
-    /* Make sure the images fit within the reduced carousel item height */
+    
 }
 
 .story {
@@ -289,7 +293,7 @@ body {
     width: 100%;
 }
 
-/* Footer stylee*/
+/* Footer styling*/
 
 .btn {
     transition: transform 528ms ease;
@@ -299,14 +303,14 @@ body {
     transform: translate(0px, -6px);
 }
 
-
+/* Text-decoration Styling */
 .text-decoration-none:hover {
     text-decoration: underline;
 }
 
 
 /* NEW CSS HERE  */
-
+/* Hero Section Styling */
 .hero-bg {
     background-image: url(assets/img/logo.jpg);
     background-position: center;
@@ -354,6 +358,7 @@ span.hero-title-two {
     width: 45%;
 }
 
+/* Section Holder Styling */
 .section-holder {
     text-align: center;
     padding: 15vh 10vh;
@@ -388,6 +393,7 @@ span.hero-title-two {
     text-align: justify;
 }
 
+/* Image Holder Styling */
 .img-holder {
     margin-bottom: 10vh;
 }
@@ -407,6 +413,7 @@ span.hero-title-two {
     -moz-box-shadow: -4px 14px 16px -11px rgba(0, 0, 0, 0.51);
 }
 
+/* Card Holder Styling */
 .home-card-holder {
     background-color: #302f2f;
     border-radius: 10px;
@@ -414,6 +421,7 @@ span.hero-title-two {
 
 }
 
+/* Carousel Image Content Styling */
 .card-img-content {
     height: 100%;
     width: 100%;
@@ -448,20 +456,18 @@ span.hero-title-two {
     background-attachment: scroll;
 }
 
-#heart {
-    
-}
 
-
+/* Font Face Styling */
 @font-face {
     font-family: "airstrikebold-webfont";
     src: url("assets/font/airstrikebold-webfont.woff");
 }
-
+/* Icon Styling */
 .icon {
     font-family: 'airstrikebold-webfont';
 }
 
+/* Navbar Brand Styling */
 .navbar-brand, .logo, .icon {
     line-height: 2rem;
 
@@ -1050,3 +1056,6 @@ span.hero-title-two {
         height: 28px;
     }
 }
+
+Livelink: https://khinsanity.github.io/MP_1/
+Repository: https://github.com/khinsanity/MP_1
